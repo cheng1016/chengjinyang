@@ -10,7 +10,7 @@
     
     <u1>
         <li><a href="zy01.html">作业1</a></li>
-        <li><a href="">作业2</a></li>
+        <li><a href="zy02.html">作业2</a></li>
         <li><a href="">作业3</a></li>
         <li><a href="">作业4</a></li>
         <li><a href="">作业5</a></li>
