@@ -11,12 +11,8 @@
     <u1>
         <li><a href="zy01.html">作业1</a></li>
         <li><a href="zy02.html">作业2</a></li>
-        <li><a href="">作业3</a></li>
-        <li><a href="">作业4</a></li>
-        <li><a href="">作业5</a></li>
-        <li><a href="">作业6</a></li>
-        <li><a href="">作业7</a></li>
-        <li><a href="">作业8</a></li>
+        <li><a href="zy03.html">作业3</a></li>
+        <li><a href="QIMO">期末</a></li>
     </u1>
 </body>
 </html>
