@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百度一下，你就知道</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .top{
+            width: 100%;
+            height: 50px;
+            position: relative;
+        }
+        .top_left{
+            width: 800px;
+            height: 50px;
+            float: left;
+            position: absolute;
+            left: 0px;
+        }
+        .top_right{
+            width: 250px;
+            height: 50px;
+            float: left;
+            margin-left: 500px;
+            position: absolute;
+            right: 0px;
+        }
+        .top_left a{
+            list-style: none;
+            float: left;
+            padding: 19px 31px;
+            color:#222;
+            font-size: 13px;
+            text-decoration: none;
+        }
+        .top_right li{
+            list-style: none;
+            float: left;
+            padding: 19px 31px;
+            color: #222;
+            font-size: 13px;
+            text-decoration: none;
+        }
+        .box{
+            width: 50px;
+            height: 20px;
+            background-color: blue;
+            padding: 2px 8px;
+            text-align: center;
+            color: white;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+        .main{
+            width: 100%;
+            height: 740px;
+        }
+        .logo{
+            width: 300px;
+            height: 100px;
+            margin: 0px auto;
+            margin-top: 110px;
+        }
+        
+        .x{
+            width: 700px;
+            height: 50px;
+                    position: relative;
+                    margin: 30px auto;
+                    text-align: center;
+                }
+                .k{
+                    width: 536px;
+                    height: 38px;
+                    border: 1px solid #cccccc;
+                    float: left;
+                    box-sizing: border-box;
+                    border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                }
+                .n{
+                    width: 102px;
+                    height: 38px;
+                    line-height: 40px;
+                    float: left;
+                    background-color: #38f;
+                    font-size: 16px;
+                    cursor: pointer;
+                }
+                .t{
+                    z-index: 1;
+                    position: absolute;
+                    right: 113px;
+                    top: 50%;
+                    margin-top: -8px;
+                    height: 16px;
+                    width: 18px;
+                    background: url("images/bd.png");
+                    cursor: pointer;
+                }
+                .box_p{
+                    width:700px;
+                    height: 20px;
+                    margin: 0 auto;
+                    font-size: 13px;
+                }
+                .box_p p{
+                    float: left;
+                }
+                .box_redian{
+                    width: 700px;
+                    height: 400px;
+                    margin: 0 auto;
+                }
+                .box1{
+                    width: 330px;
+                    height: 130px;
+                    float: left;
+                    margin-left: 10px;
+                    margin-top: 10px;
+                }
+                .box1 li{
+                    list-style: none;
+                    padding: 5px;
+                    font-size: 13px;
+                }
+                .footer{
+                    width: 100%;
+                    height: 50px;
+                    border: 1px solid gainsboro;
+                    position: relative;
+                }
+                .bottom_left{
+                    width: 800px;
+                    height: 50px;
+                    float: left;
+                }
+                .bottom_right{
+                    width: 800px;
+                    height: 50px;
+                    position: absolute;
+                    margin-left: 800px;
+                }
+                .bottom_left li{
+                    list-style: none;
+                    float: left;
+                    padding: 14px 20px;
+                    font-size: 12px;
+                    color:#9195a3;
+                }
+                .bottom_right li{
+                    list-style: none;
+                    float: left;
+                    padding: 14px 20px;
+                    font-size: 12px;
+                    color: #9195a3;
+                }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="top_left">
+            <ul>
+               <a href="">新闻</a>
+               <a href="">hao123</a>
+               <a href="">地图</a>
+               <a href="">视频</a>
+               <a href="">贴吧</a>
+               <a href="">学术</a>
+               <a href="">更多</a>
+            </ul>
+        </div>
+        <div class="top_right">
+            <ul>
+                <li>设置</li>
+                <li>
+                    <div class="box">
+                        登录
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="main">
+        <div class="logo">
+            <img src="img.html\logo.jpg" width="100%" >
+        </div>
+        
+        <div class="x">
+            <input type="text" class="k"><input style="color: white;" type="button" value="百度一下" class="n">
+            <span class="t"></span>
+        </div>
+        <div class="box_p">
+            <span>百度热榜</span>
+            <span style=" float: right;">换一换</span>
+        </div>
+        <div class="box_redian">
+            <div class="box1">
+                <ul>
+                    <li>1.中国加入全球最大自贸区</li>
+                    <li>2.国乒包揽世界杯冠亚军</li>
+                    <li>3.特朗普推特“声援”华盛顿集会</li>
+                </ul>
+            </div>
+            <div class="box1">
+                <ul>
+                    <li>4.遭幼师摔打致伤3岁男童父亲发声</li>
+                    <li>5.阿塞拜疆亚美尼亚交换阵亡士兵遗体</li>
+                    <li>6.一组图读懂RCEP是什么</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="bottom_left">
+            <ul>
+                <li>设为首页</li>
+                <li>关于百度</li>
+                <li>aboutbaidu</li>
+                <li>百度营销</li>
+                <li>使用百度前必读</li>
+                <li>意见反馈</li>
+                <li>帮助中心</li>
+            </ul>
+        </div>
+        <div class="bottom_right">
+            <ul>
+                <li>©2020 Baidu </li>
+                <li>(京)-经营性-2017-0020</li>
+                <li>京公网安备11000002000001号</li>
+                <li>京ICP证030173号</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
