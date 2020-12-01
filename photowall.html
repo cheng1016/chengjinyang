@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: skyblue;
+        }
+        div{
+            width: 200px;
+            margin: 0 auto;
+        }
+        div img{
+            transition: all 1s;
+        }
+        img:first-child{
+            transform: translate(-200px,100px) rotate(45deg);
+        }
+        img:nth-child(2){
+            transform: translate(-400px,400px) rotate(45deg);
+        }
+        img:nth-child(3){
+            transform: translate(200px,400px) rotate(45deg);
+        }
+        img:nth-child(4){
+            transform: translate(200px,500px) rotate(60deg);
+        }
+        img:nth-child(5){
+            transform: translate(300px,600px) rotate(60deg);
+        }
+        img:nth-child(6){
+            transform: translate(-300px,600px) rotate(70deg);
+        }
+        img:nth-child(7){
+            transform: translate(-500px,700px) rotate(70deg);
+        }
+        img:nth-child(8){
+            transform: translate(200px,100px) rotate(45deg);
+        }
+        body:hover img{
+            transform:none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="img.html\p1.jpg" width="80px">
+        <img src="img.html\p6.jpg" width="80px">
+        <img src="img.html\p3.jpg" width="80px">
+        <img src="img.html\p4.jpg" width="80px">
+        <img src="img.html\p5.jpg" width="80px">
+        <img src="img.html\p2.jpg" width="80px">
+        <img src="img.html\p7.jpg" width="80px">
+        <img src="img.html\p8.jpg" width="80px">
+    </div>
+</body>
+</html>
